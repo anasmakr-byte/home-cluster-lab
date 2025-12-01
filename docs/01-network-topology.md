@@ -13,7 +13,7 @@ graph TD
   AP2["U6 AP 2 (Wi-Fi 6)"]
   IoTDevices["~30 IoT Devices"]
 
-  PC["Main PC (1G NIC)"]
+  PC["Main PC (2.5G NIC)"]
 
   Alarm["Home Alarm System"]
   TV["TV"]
