@@ -34,6 +34,10 @@ I work as an **L2 Network Support Technician (FTTH/Broadband/VoIP/FWA)** and thi
     - **proxmox2**
       - Intel i5-10400 (12 threads), 64 GB RAM, 1 TB NVMe + 4 TB HDD, RTX 4060 Ti
 
+## 📚 Documentation
+
+- [Network topology](docs/01-network-topology.md)
+
 ---
 
 ## 🧱 VLAN & Network Design
