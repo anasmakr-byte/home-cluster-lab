@@ -84,6 +84,7 @@ Key Guests:
 **VMs**
 - `100` – Ubuntu test VM (lab, usually off)
 - `103` – Windows 11 test VM (lab, usually off)
+- `130` – Wazuh SIEM (security) 
 - `190` – Kali test VM (lab, testing)
 
 ---
@@ -131,6 +132,10 @@ Monitoring stack:
 - **Uptime Kuma** to monitor:
   - Public entrypoints (reverse proxy)
   - Internal services (Pi-hole, Home Assistant, media services, AI VM)
+- **Wazuh SIEM** on proxmox1 (VM 130) for:
+  - Centralized security event and log monitoring
+  - Agents on proxmox1, proxmox2, Raspberry Pi 4
+  - Ingesting logs from the UDM Pro firewall/router
 
 ---
 
