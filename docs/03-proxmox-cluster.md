@@ -56,6 +56,12 @@ The homelab runs a 2-node **Proxmox VE** cluster named `home-cluster`.
 - `103` – **Windows 11 test VM**  
   Used for GUI-based testing and lab scenarios (usually powered off).
 
+- `130` – **Wazuh SIEM**  
+  Centralized security monitoring and log analysis platform.  
+  - Wazuh manager running on Ubuntu Server 24.04 LTS  
+  - Agents deployed on proxmox1, proxmox2 and Raspberry Pi 4  
+  - UDM Pro forwards logs to this VM for correlation and alerting  
+
 - `190` – **Kali Linux**  
   Dedicated **cybersecurity testing VM** used for:
   - Running security tools and scanners
